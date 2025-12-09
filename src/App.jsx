@@ -85,13 +85,6 @@ const GOALS = [
   { id: 'professionalism', label: 'Sound More Professional', icon: '🎓' }
 ];
 
-const PLATFORMS = [
-  { name: 'Outlook', color: 'text-blue-600' },
-  { name: 'Gmail', color: 'text-red-500' },
-  { name: 'Slack', color: 'text-purple-600' },
-  { name: 'Teams', color: 'text-indigo-600' }
-];
-
 const SAMPLE_DRAFTS = [
   "Good morning, Jared, Quick questions regarding this replacement request: Are we approving a replacement for the following items? And are we approving an RMA for the replacement order or the original invoice? Please advise when you can so I can proceed.",
   "hey i need that report by friday or else we are gonna be in big trouble with the client",
