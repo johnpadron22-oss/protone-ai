@@ -5,13 +5,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "agents": "tsx agents/run.ts",
+    "agents:frontend": "tsx agents/run.ts frontend",
+    "agents:backend": "tsx agents/run.ts backend",
+    "agents:aiden": "tsx agents/run.ts aiden"
   },
   "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.69",
+    "@anthropic-ai/sdk": "^0.78.0",
     "next": "^14.2.0",
     "openai": "^4.82.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tsx": "^4.21.0",
     "zod": "^3.24.0"
   },
   "devDependencies": {
